@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "data_status": "SAMPLE_ONLY",
+  "notice": "All entities and events are fictional. Not verified results or schedules.",
+  "timezone": "America/Chicago",
+  "season": "2026 Fall SAMPLE",
+  "division": "U15 Demo Division",
+  "competition_id": "sample-league",
+  "teams": [
+    {"id": "sample-austin", "is_sample": true, "name": "SAMPLE Austin Comets", "home_area": "Austin", "age_group": "U15"},
+    {"id": "sample-round-rock", "is_sample": true, "name": "SAMPLE Round Rock Owls", "home_area": "Round Rock", "age_group": "U15"},
+    {"id": "sample-cedar-park", "is_sample": true, "name": "SAMPLE Cedar Park Foxes", "home_area": "Cedar Park", "age_group": "U15"}
+  ],
+  "matches": [
+    {"id": "sample-match-1", "is_sample": true, "kickoff": "2026-08-29T09:00:00-05:00", "home_team_id": "sample-austin", "away_team_id": "sample-round-rock", "home_score": 2, "away_score": 1, "status": "final", "venue": "SAMPLE Austin Field", "verification_status": "fictional", "source_url": null},
+    {"id": "sample-match-2", "is_sample": true, "kickoff": "2026-08-30T10:00:00-05:00", "home_team_id": "sample-cedar-park", "away_team_id": "sample-austin", "home_score": 1, "away_score": 1, "status": "final", "venue": "SAMPLE Cedar Park Field", "verification_status": "fictional", "source_url": null},
+    {"id": "sample-match-3", "is_sample": true, "kickoff": "2026-09-05T09:00:00-05:00", "home_team_id": "sample-round-rock", "away_team_id": "sample-cedar-park", "home_score": null, "away_score": null, "status": "scheduled", "venue": "SAMPLE Round Rock Field", "verification_status": "fictional", "source_url": null}
+  ],
+  "rankings": {
+    "is_sample": true,
+    "as_of": "2026-08-30",
+    "method": "Final matches only; win=3, draw=1, loss=0. Sort points, goal difference, goals scored descending, then team name ascending.",
+    "table": [
+      {"is_sample": true, "rank": 1, "team_id": "sample-austin", "played": 2, "wins": 1, "draws": 1, "losses": 0, "goals_for": 3, "goals_against": 2, "goal_difference": 1, "points": 4},
+      {"is_sample": true, "rank": 2, "team_id": "sample-cedar-park", "played": 1, "wins": 0, "draws": 1, "losses": 0, "goals_for": 1, "goals_against": 1, "goal_difference": 0, "points": 1},
+      {"is_sample": true, "rank": 3, "team_id": "sample-round-rock", "played": 1, "wins": 0, "draws": 0, "losses": 1, "goals_for": 1, "goals_against": 2, "goal_difference": -1, "points": 0}
+    ]
+  },
+  "tournaments": [
+    {"id": "sample-tournament-1", "is_sample": true, "name": "SAMPLE Austin Area Fall Cup", "start_date": "2026-09-19", "end_date": "2026-09-20", "host_area": "Pflugerville", "venue": "SAMPLE Pflugerville Fields", "age_group": "U15", "registration_deadline": "2026-09-10", "status": "illustrative", "verification_status": "fictional", "source_url": null, "fixtures": []}
+  ]
+}
